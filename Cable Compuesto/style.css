@@ -92,6 +92,7 @@ main{
     border-width: 5%;
     width: 50%;
     display: grid;
+    margin-bottom: 10%;
     img{
         width: calc(50px + 40%);
         height: calc(50px + 40%);
