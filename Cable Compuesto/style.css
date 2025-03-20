@@ -8,7 +8,7 @@ p{
     font-weight: 400;
     font-style: normal;
   }
-@media screen and (min-width: 1500px) and (min-height: 720px){
+@media screen and (min-width: 1000px) and (min-height: 720px){
 table{
     border: 1px solid black;
     font-family: "VT323", serif;
@@ -41,7 +41,7 @@ h4{
     font-family: "VT323", serif;
     font-size: 25px;
     text-align: left;
-    margin: 2%;
+    margin: 21px;
 
 }
 h2{
@@ -79,9 +79,10 @@ main{
     p{
         font-family: "VT323", serif;
         font-size: 20px;
+        text-shadow: 2%;
         margin: 0%;
         text-indent: 4%;
-        text-justify: auto;
+        text-align: justify;
          }
     position: absolute;
     left: 25%;
@@ -92,11 +93,8 @@ main{
     width: 50%;
     display: grid;
     img{
-        width: 18%;
-        height: 18%;
-        position: absolute;
-        margin-left: 72%;
-        margin-top: 1%;
+        width: calc(50px + 40%);
+        height: calc(50px + 40%);
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
@@ -105,8 +103,9 @@ main{
         -ms-filter: "FlipH";
         border-radius: 8px;
         filter: saturate(250%);
-        display: flex;
-
+        object-fit: contain;
+        margin-left: 0%;
+        float: right;
     }
 }
 
@@ -128,6 +127,7 @@ footer{
     width: 99%;
     display: flex;
     bottom: 0;
+}
 }
     @media screen and (min-width: 720px) and (min-height: 1500px){
 
@@ -229,6 +229,7 @@ main{
         text-shadow: 2%;
         margin: 0%;
         text-indent: 4%;
+        padding: 0%
          };
     img{
         width: calc(50px + 50%);
@@ -244,6 +245,8 @@ main{
         object-fit: contain;
         margin-left: 5%;
         float: right;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
     }
    }
 footer{
