@@ -1,0 +1,130 @@
+p{
+    font-family: "VT323", serif;
+    font-size: 20px;
+}
+.vt323-regular {
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+table{
+    border: 1px solid black;
+    font-family: "VT323", serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+col{
+    background-color: aqua;
+}
+th{
+    font: bold;
+    background-color: aqua;
+    border-right: 1px solid black;
+}
+em{
+    color: red;
+    font-style: italic;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+html{
+    background: linear-gradient(white, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h4{
+    font-family: "VT323", serif;
+    font-size: 25px;
+    text-align: left;
+    margin: 2%;
+
+}
+h2{
+    font-family: "VT323", serif;
+    font-size: 40px;
+    font: bold;
+    color: darkblue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: aquamarine;
+    margin: 0%;
+}
+header{
+    margin-top: 0%;
+    text-align: center; margin-bottom: 20px;
+    vertical-align: auto;
+    align-content: center;
+    align-items: center;
+    border: 50px;
+    font-size: 76px;
+    border: solid;
+    position: relative;
+    width: 99%;
+    border-top: transparent;
+    background: linear-gradient(white, wheat);
+    display: grid;
+    place-items: center;
+ 
+}
+main{
+    h4{
+        text-align: left;
+        margin-bottom: 0%;
+    }
+    p{
+        font-family: "VT323", serif;
+        font-size: 20px;
+        margin: 0%;
+        text-indent: 4%;
+        text-justify: auto;
+         }
+    position: absolute;
+    left: 25%;
+    background: rgb(246, 240, 233);
+    padding: 20px;
+    border: solid;
+    border-width: 5%;
+    width: 50%;
+    display: grid;
+    img{
+        width: 18%;
+        height: 18%;
+        position: absolute;
+        margin-left: 72%;
+        margin-top: 1%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        border-radius: 8px;
+        filter: saturate(250%);
+        display: flex;
+
+    }
+}
+
+footer{
+    p{
+        margin: 0%;
+    }
+    border-top: solid; 
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-style: groove;
+    flex-shrink: 0;
+    position: fixed;
+    border-top: 2px dashed #000;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    background: linear-gradient(white, wheat);
+    width: 99%;
+    display: flex;
+    bottom: 0;
+}
