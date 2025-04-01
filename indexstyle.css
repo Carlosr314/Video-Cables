@@ -1,0 +1,122 @@
+html{
+    padding: 0%;
+    margin: 0%;
+    background: linear-gradient(skyblue, rgb(139, 139, 213));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2%;
+}
+header{
+    background-color: rgba(34, 19, 172, 0.348);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header:hover{
+    background-color:  rgb(34, 19, 172);
+    transition: 0.5s;
+    h1, p{
+        color: white;
+    }
+}
+header p{
+    text-align: center;
+    margin-left: 8px;
+}
+main{
+    background-color: rgb(253, 245, 235);
+    display: flex;
+    place-self: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: fit-content;
+    margin-top: 20px;
+}
+main p{
+    margin: 2%;
+}
+.cables{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    gap: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.text{
+    min-height: 200px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+    overflow: hidden;
+    background-color: #cccccc;
+    text-decoration: none;
+}
+.text h3{
+    color: white;
+    margin-top: 8px;
+    font-size: 30px;
+    margin-left: 8px;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    width: fit-content;
+    margin: 0%;
+    gap: 0%;
+    padding: 0%;
+}
+footer{
+    bottom: 0%;
+    margin-top: 2%;
+}
+footer p{
+    margin-left: 8px;
+}
+
+
+@media screen and (max-width: 900px) {
+	.cables{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 0;
+        gap: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cables{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 0;
+        gap: 1%;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .text{
+        min-height: fit-content;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow: hidden;
+        background-color: #cccccc;
+        text-decoration: none;
+}
+}
